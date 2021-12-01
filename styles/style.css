@@ -20,7 +20,39 @@ body {
   background-color: hsl(200, 100%, 50%);
 }
 
-.food {
+.snake--cherry {
+  background-color: #972a3b;
+}
+
+.snake--banana {
+  background-color: #f6c839;
+}
+
+.snake--grapes {
+  background-color: #7e5faa;
+}
+
+/* .food {
   background: url("../assets/img/cherry-cartoon.png") no-repeat center
+    center/cover;
+} */
+
+.food--cherry {
+  background: url("../assets/img/cherry-cartoon.png") no-repeat center
+    center/cover;
+}
+
+.food--banana {
+  background: url("../assets/img/banana-cartoon.png") no-repeat center
+    center/cover;
+}
+
+.food--grapes {
+  background: url("../assets/img/icons8-grapes-64.png") no-repeat center
+    center/cover;
+}
+
+.food--poison {
+  background: url("../assets/img/icons8-poison-bottle-16.png") no-repeat center
     center/cover;
 }
