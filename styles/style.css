@@ -20,6 +20,12 @@ body {
   background-color: hsl(200, 100%, 50%);
 }
 
+/* .snake--head {
+  grid-row-start: 11;
+  grid-column-start: 11;
+  background-color: hsl(200, 100%, 50%);
+} */
+
 .snake--cherry {
   background-color: #972a3b;
 }
