@@ -18,7 +18,13 @@ body {
 
 .snake {
   background-color: hsl(200, 100%, 50%);
+  /* border-radius: 5px; */
 }
+
+/* #snake:first-child {
+  border-radius: 5px;
+  background-color: black;
+} */
 
 /* .snake--head {
   grid-row-start: 11;

@@ -64,12 +64,14 @@ export function speedUpSnake(amount) {
 }
 
 export function changeSnakeColor(classToAdd) {
-  const snakeColor = document.querySelectorAll(".snake");
+  const snakeColor = document.querySelectorAll("#snake");
+  console.log(snakeColor);
   snakeColor.forEach((part) => {
-    part.classList.remove("snake--cherry");
-    part.classList.remove("snake--banana");
-    part.classList.remove("snake--grapes");
-    part.classList.remove("snake");
-    part.classList.add(classToAdd);
+    // part.classList.remove("snake--cherry");
+    // part.classList.remove("snake--banana");
+    // part.classList.remove("snake--grapes");
+    // part.classList.remove("snake");
+    part.classList.add(`${classToAdd}`);
+    console.dir(snakeColor);
   });
 }
